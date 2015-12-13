@@ -23,6 +23,7 @@ body, div, a {
     text-align: right;
     font-size: 60px;
     padding: 0 5px;
+    color:greenyellow;
 }
 
 #numbers, #operators {
@@ -34,7 +35,7 @@ body, div, a {
     width: 45px;
     height: 45px;
     float: left;
-    text-decoration: none;
+   text-decoration: none;
     color: black;
     text-align: center;
     font-size: 39px;
@@ -61,8 +62,13 @@ body, div, a {
     border-radius: 10px;
 }
 
-a:hover{
-    background: -webkit-gradient(linear, left top, left bottom, from(#DCDCDC), to(#EDEDED));
-    background: -moz-linear-gradient(top,  #DCDCDC,  #EDEDED);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DCDCDC', endColorstr='#EDEDED');
+#clear:hover{
+    color: yellow;
+}
+#clearall:hover{
+    color: yellow;
+}
+
+#calculator a:hover{
+    color:blue;
 }

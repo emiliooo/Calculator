@@ -23,7 +23,7 @@ $(document).ready(function(){
         operator = $(this).text();
         newnumber = number;
         number = "";
-        totaldiv.text("0");
+        totaldiv.text(operator);
     });
     $("#clear,#clearall").click(function(){
         number = "";
